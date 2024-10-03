@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Config files (if they contain sensitive data)
+config/production.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore IDE-specific files
+.vscode/
+.idea/
