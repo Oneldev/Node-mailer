@@ -1,9 +1,3 @@
-const config = require('config');
-
-const emailUser = config.get('email.user');
-const emailPass = config.get('email.pass');
-
-
 
 
 // Express setup
