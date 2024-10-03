@@ -1,10 +1,10 @@
 {
   "name": "node-mailer",
   "version": "1.0.0",
-  "main": "index.js", // Your main entry point
+  "main": "index.js", 
   "scripts": {
-    "start": "node index.js", // Command to start your app
-    "build": "echo 'No build step required'" // Optional
+    "start": "node index.js",
+    "build": "echo 'No build step required'"
   },
 
   "dependencies": {
