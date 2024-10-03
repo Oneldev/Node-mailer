@@ -1,4 +1,12 @@
 {
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "main": "index.js", // Your main entry point
+  "scripts": {
+    "start": "node index.js", // Command to start your app
+    "build": "echo 'No build step required'" // Optional
+  },
+
   "dependencies": {
     "config": "^3.3.12",
     "dotenv": "^16.4.5",
