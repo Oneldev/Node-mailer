@@ -59,15 +59,15 @@ app.post("/send_email", function(req, response) {
                 "Message: " + message
     };
     
-    // transporter.sendMail(mailOptions, function(error, info){
-    //     if (error) {
-    //         console.log(error);
-    //         response.status(500).json({ error: 'There was an error sending the email' });
-    //     } else {
-    //         console.log('Email sent:'+ info.response);
-    //         response.status(200).json({ message: 'Email sent successfully' });
-    //     }
-    // });
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            console.log(error);
+            response.status(500).json({ error: 'There was an error sending the email' });
+        } else {
+            console.log('Email sent:'+ info.response);
+            response.status(200).json({ message: 'Email sent successfully' });
+        }
+    });
 });
 
 // Initialize web server
